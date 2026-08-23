@@ -9,7 +9,7 @@ function setup(){
     background(220)
 }
 function draw(){
-    if(keycode === 38){
-        obj
+    if(keycode === 37){
+        objX -= ob
     }
 }
