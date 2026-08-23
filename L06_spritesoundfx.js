@@ -29,10 +29,10 @@ function draw(){
     if(staticImageX<0){
         background("red")
     soundEffect.play}
-    if(staticImageX==400){
+    if(staticImageX>400){
         background("red")
     soundEffect.play}
-    if(staticImageY==0){
+    if(staticImageY<0){
         background("red")
     soundEffect.play}
     if(staticImageY==400){
