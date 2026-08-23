@@ -27,7 +27,7 @@ function draw(){
         staticImageY += staticSpeed;
     }
     if(staticImageX==0)
-        
+        background("")
     staticImageX = constrain(staticImageX,0,400)
     staticImageY = constrain(staticImageY,0,400)
     image(staticImage,staticImageX,staticImageY,50,50);
