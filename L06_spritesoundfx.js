@@ -21,10 +21,10 @@ function draw(){
         staticImageX += staticSpeed;
     }
     if(keyIsDown(UP_ARROW)){
-        staticImageY += staticSpeed;
+        staticImageY -= staticSpeed;
     }
     if(keyIsDown(DOWN_ARROW)){
-        staticImageY -= staticSpeed;
+        staticImageY += staticSpeed;
     }
     constrain(staticImageX,50,350)
     constrain(staticImageY,50,350)
