@@ -32,7 +32,10 @@ function draw(){
     if(staticImageX==400)
         background("red")
     soundEffect.play
-    if()
+    if(staticImageY==0)
+        background("red")
+    soundEffect.play
+    if9
     staticImageX = constrain(staticImageX,0,400)
     staticImageY = constrain(staticImageY,0,400)
     image(staticImage,staticImageX,staticImageY,50,50);
