@@ -14,7 +14,7 @@ function setup(){
 }
 function draw(){
     background("lightblue");
-    if(k);
+    if(keyIsDown(LEFT_ARROW));
 }
 function keyPressed(){
     if(keyCode ===32){
