@@ -27,6 +27,6 @@ function draw(){
     if(key === e || key === E){
         circle(objX,objY,50)}
     if(key === 'b' || key === 'B'){
-        
+        shapeColour = color()
     }
 }
