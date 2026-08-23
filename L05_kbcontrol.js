@@ -2,7 +2,7 @@
 let objsize, objSpeed;
 let objX = 200;
 let objY = 200;
-
+let shapeColor = "black"
 
 
 function setup(){
@@ -24,4 +24,6 @@ function draw(){
     if(key === 'r' || key === 'R'){
         rect(objX,objY,50,50)
     }
+    if(key === e || key === E)
+        
 }
