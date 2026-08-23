@@ -15,7 +15,9 @@ function draw(){
     Image(staticImage,0,0,50,50);
 }
 function keyPressed(){
-    
+    if(keyCode ===32){
+        sound
+    }
 }
 
 
