@@ -14,7 +14,9 @@ function setup(){
 }
 function draw(){
     background("lightblue");
-    if(keyIsDown(LEFT_ARROW));
+    if(keyIsDown(LEFT_ARROW)){
+        staticImageX -= 
+    };
 }
 function keyPressed(){
     if(keyCode ===32){
