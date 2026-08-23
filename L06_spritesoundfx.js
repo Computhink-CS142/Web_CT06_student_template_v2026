@@ -10,7 +10,7 @@ function preload(){
 
 function draw(){
     circle(x,y,50);
-    if(keycode===38){
+    if(keycode === 38){
         y-=5
     }
     if(keycode===37){
