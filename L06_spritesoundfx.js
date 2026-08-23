@@ -5,7 +5,7 @@ function setup(){
     background(220);
 }
 function preload(){
-    
+    soundEffect = loadSound
 }
 
 function draw(){
