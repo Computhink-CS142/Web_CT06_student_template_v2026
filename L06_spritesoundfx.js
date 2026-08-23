@@ -1,4 +1,5 @@
-let soundEffect, bgMusic
+let soundEffect, bgMusic, staticImage;
+let staticImageX
 function preload(){
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
