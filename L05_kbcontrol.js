@@ -20,4 +20,5 @@ function draw(){
     }
     if(keycode === 40){
         objY -= objSpeed}
+        
 }
