@@ -14,7 +14,9 @@ function draw(){
     background("lightblue");
     Image(staticImage,0,0,50,50);
 }
-
+function keyPressed(){
+    
+}
 
 
 
