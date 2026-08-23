@@ -1,6 +1,6 @@
 let soundEffect, bgMusic, staticImage;
 let staticImageX = 0;
-let staticImageY = 0;
+let staticImageY = 350;
 let staticSpeed = 3;
 function preload(){
     soundEffect = loadSound('assets/pop.mp3');
