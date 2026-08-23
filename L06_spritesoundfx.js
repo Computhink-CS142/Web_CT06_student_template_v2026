@@ -28,6 +28,7 @@ function draw(){
     }
     if(staticImageX==0)
         background("red")
+    if(staticImage)
     staticImageX = constrain(staticImageX,0,400)
     staticImageY = constrain(staticImageY,0,400)
     image(staticImage,staticImageX,staticImageY,50,50);
