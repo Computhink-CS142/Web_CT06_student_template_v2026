@@ -15,8 +15,9 @@ function setup(){
 function draw(){
     background("lightblue");
     if(keyIsDown(LEFT_ARROW)){
-        staticImageX -= staticSpeed
-    };
+        staticImageX -= staticSpeed;
+    }
+    if(keyIsDown(RIGHT_ARROW))
 }
 function keyPressed(){
     if(keyCode ===32){
