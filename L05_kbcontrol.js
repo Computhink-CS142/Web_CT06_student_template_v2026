@@ -10,6 +10,6 @@ function setup(){
 }
 function draw(){
     if(keycode === 38){
-
+        objX
     }
 }
