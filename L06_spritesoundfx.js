@@ -1,4 +1,4 @@
-let soundEffect
+let soundEffect, bgMusic
 function preload(){
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
