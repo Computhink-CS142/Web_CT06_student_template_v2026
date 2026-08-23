@@ -20,6 +20,7 @@ function draw(){
     if(keyIsDown(RIGHT_ARROW)){
         staticImageY += staticSpeed;
     }
+    image
 }
 function keyPressed(){
     if(keyCode ===32){
