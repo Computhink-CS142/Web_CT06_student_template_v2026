@@ -12,7 +12,7 @@ function setup(){
 }
 function draw(){
     background("lightblue");
-    Image(staticImage)
+    Image(staticImage,0,0,50,50);
 }
 
 
