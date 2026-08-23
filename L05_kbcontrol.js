@@ -24,7 +24,9 @@ function draw(){
     if(key === 'r' || key === 'R'){
         rect(objX,objY,50,50)
     }
-    if(key === e || key === E)
-        circle(objX,objY,50)
-    if(key === 'b' || key === 'B'){}
+    if(key === e || key === E){
+        circle(objX,objY,50)}
+    if(key === 'b' || key === 'B'){
+        
+    }
 }
