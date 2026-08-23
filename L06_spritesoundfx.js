@@ -26,7 +26,7 @@ function draw(){
     if(keyIsDown(DOWN_ARROW)){
         staticImageY += staticSpeed;
     }
-    if(staticImageX==0){
+    if(staticImageX<0){
         background("red")
     soundEffect.play}
     if(staticImageX==400){
