@@ -10,19 +10,23 @@ function preload(){
     staticImage = loadImage('assets/pico-a.png');
 }
 
-function draw(){
-    circle(x,y,50);
-    if(keycode === 38){
-        y-=5
-    }
-    if(keycode===37){
-        x-=5
-    }
-    if(keycode===39){
-        y+=5
-    }
-    if(keycode===40){
-        x+=5
-    }
-    circle(x,y,50)
-}
+
+
+
+
+// function draw(){
+//     circle(x,y,50);
+//     if(keycode === 38){
+//         y-=5
+//     }
+//     if(keycode===37){
+//         x-=5
+//     }
+//     if(keycode===39){
+//         y+=5
+//     }
+//     if(keycode===40){
+//         x+=5
+//     }
+//     circle(x,y,50)
+// }
