@@ -29,4 +29,5 @@ function draw(){
     if(key === 'b' || key === 'B'){
         shapeColour = color(0,0,255)
     }
+    if(key === 'g' || key === 'G'){}
 }
