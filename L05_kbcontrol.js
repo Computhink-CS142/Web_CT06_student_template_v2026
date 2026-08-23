@@ -15,5 +15,9 @@ function draw(){
     if(keycode === 39){
         objX += objSpeed
     }
-    
+    if(keycode === 38){
+        objY += objSpeed
+    }
+    if(keycode === 40){
+        objY -= objSpeed}
 }
