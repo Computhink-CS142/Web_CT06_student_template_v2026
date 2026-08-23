@@ -5,7 +5,8 @@ function setup(){
     background(220);
 }
 function preload(){
-    soundEffect = loadSound('')
+    soundEffect = loadSound('assets/pop.mp3')
+    
 }
 
 function draw(){
