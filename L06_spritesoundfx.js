@@ -14,7 +14,7 @@ function setup(){
 }
 function draw(){
     background("lightblue");
-    image(staticImage,0,0,50,50);
+    if(k);
 }
 function keyPressed(){
     if(keyCode ===32){
