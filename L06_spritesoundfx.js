@@ -7,7 +7,7 @@ function setup(){
 function preload(){
     soundEffect = loadSound('assets/pop.mp3')
     bgMusic = loadSound('assets/bossaNova.mp3')
-    staticImage = loadImage
+    staticImage = loadImage('assets/pico-a')
 }
 
 function draw(){
