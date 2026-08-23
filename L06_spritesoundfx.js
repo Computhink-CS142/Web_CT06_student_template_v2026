@@ -11,7 +11,7 @@ function setup(){
     bgMusic.loop();
 }
 function draw(){
-    
+    background("lightblue")
 }
 
 
