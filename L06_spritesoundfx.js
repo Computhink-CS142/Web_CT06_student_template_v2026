@@ -20,5 +20,5 @@ function draw(){
     if(keycode===40){
         x+=5
     }
-    circle()
+    circle(x,y,50)
 }
