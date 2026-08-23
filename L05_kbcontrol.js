@@ -30,6 +30,9 @@ function draw(){
         shapeColour = color(0,0,255)
     }
     if(key === 'g' || key === 'G'){
-        shapeColour
+        shapeColour(0,255,0)
+    }
+    if(key === 'y' || key === 'Y'){
+        
     }
 }
