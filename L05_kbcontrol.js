@@ -20,5 +20,7 @@ function draw(){
     }
     if(keycode === 40){
         objY -= objSpeed}
-        
+    if(key === 'r' || key === 'R'){
+        Reflect()
+    }
 }
