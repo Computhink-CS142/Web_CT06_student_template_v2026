@@ -10,6 +10,9 @@ function setup(){
 }
 function draw(){
     if(keycode === 37){
-        objX -= ob
+        objX -= objSpeed
+    }
+    if(leycode === 39){
+        
     }
 }
