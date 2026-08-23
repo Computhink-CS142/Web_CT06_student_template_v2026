@@ -25,5 +25,5 @@ function draw(){
         rect(objX,objY,50,50)
     }
     if(key === e || key === E)
-        
+        circle()
 }
