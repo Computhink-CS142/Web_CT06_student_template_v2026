@@ -12,7 +12,7 @@ function draw(){
     if(keycode === 37){
         objX -= objSpeed
     }
-    if(leycode === 39){
-        
+    if(keycode === 39){
+        objX 
     }
 }
