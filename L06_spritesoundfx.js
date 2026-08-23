@@ -1,7 +1,7 @@
 let soundEffect, bgMusic, staticImage;
-let staticImageX = 0
+let staticImageX = 0;
 let staticI,ageY = 0;
-
+let staticImage
 function preload(){
     soundEffect = loadSound('assets/pop.mp3');
     bgMusic = loadSound('assets/bossaNova.mp3');
