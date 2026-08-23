@@ -38,8 +38,8 @@ function draw(){
     if(staticImageY==400)
         background("red")
     soundEffect.play
-    staticImageX = constrain(staticImageX,0,400)
-    staticImageY = constrain(staticImageY,0,400)
+    staticImageX = constrain(staticImageX,0,400);
+    staticImageY = constrain(staticImageY,0,400);
     image(staticImage,staticImageX,staticImageY,50,50);
 }
 function keyPressed(){
