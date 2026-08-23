@@ -1,5 +1,5 @@
 // write your codes here
-let 
+let objX, objY, 
 
 
 
