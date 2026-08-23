@@ -4,7 +4,9 @@ function setup(){
     createCanvas(400,400);
     background(220);
 }
-
+function preload(){
+    
+}
 
 function draw(){
     circle(x,y,50);
