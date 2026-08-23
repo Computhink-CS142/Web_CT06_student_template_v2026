@@ -31,10 +31,10 @@ function draw(){
     soundEffect.play}
     if(staticImageX==400){
         background("red")
-    soundEffect.play
-    if(staticImageY==0)
+    soundEffect.play}
+    if(staticImageY==0){
         background("red")
-    soundEffect.play
+    soundEffect.play}
     if(staticImageY==400)
         background("red")
     soundEffect.play
