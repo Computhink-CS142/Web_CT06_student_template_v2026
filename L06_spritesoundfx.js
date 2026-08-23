@@ -16,7 +16,7 @@ function draw(){
 }
 function keyPressed(){
     if(keyCode ===32){
-        sound
+        soundEffect.play();
     }
 }
 
