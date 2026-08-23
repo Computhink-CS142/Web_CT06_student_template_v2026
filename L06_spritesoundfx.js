@@ -21,9 +21,9 @@ function draw(){
         staticImageX += staticSpeed;
     }
     if(keyIsDown(UP_ARROW)){
-        staticImageY += staticSpeed
-        
+        staticImageY += staticSpeed;
     }
+    i
     image(staticImage,staticImageX,staticImageY,50,50);
 }
 function keyPressed(){
