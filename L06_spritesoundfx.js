@@ -27,9 +27,9 @@ function draw(){
         staticImageY += staticSpeed;
     }
     if(staticImageX==0){
-        background("red")}
-    soundEffect.play
-    if(staticImageX==400)
+        background("red")
+    soundEffect.play}
+    if(staticImageX==400){
         background("red")
     soundEffect.play
     if(staticImageY==0)
