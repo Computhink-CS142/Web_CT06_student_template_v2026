@@ -35,7 +35,7 @@ function draw(){
     if(staticImageY<0){
         background("red")
     soundEffect.play}
-    if(staticImageY==400){
+    if(staticImageY>400){
         background("red")
     soundEffect.play}
     staticImageX = constrain(staticImageX,0,400);
