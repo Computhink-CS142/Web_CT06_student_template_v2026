@@ -22,6 +22,6 @@ function draw(){
     if(keycode === 40){
         objY -= objSpeed}
     if(key === 'r' || key === 'R'){
-        rect(objX,objY)
+        rect(objX,objY,50,50)
     }
 }
