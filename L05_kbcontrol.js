@@ -1,6 +1,7 @@
 // write your codes here
 let objsize, objSpeed;
-
+let objX = 200
+let
 
 
 
